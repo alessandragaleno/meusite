@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Lista Ordenada</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible"content"IE-edge">
+        <meta name="viwepor"content"width=device-width, initial-scale-1.0">
+        <title>Operando com Listas</title>
+    </head>
+    <body>
+        <h1>lista Ordenada</h1>
+        <ol>
+            <li>super man</li>
+            <li>spider man</li>
+            <li>batman</li>
+            <li>caçador de marte</li>
+        </ol>
+        <h2>Lista nâo Ordenada</h2>
+        <ul>
+            <li>alface</li>
+            <li>tomate</li>
+            <li>queijo</li>
+            <li>presunto de peru</li>
+            <li>carne</li>
+        </ul>
+        <dl>
+        <dt>SENAC</dt>
+        <dd>Serviço Nacional de Apredizagem Comercial</dd>
+        <dt>SESC</dt>
+        <dd>Serviço social do cormecio</dd>
+        <dt>SENAI</dt>
+        <dd>Serviço de apredizagem Nacional Indùstrial</dd>
+    </body>
+    </html>
