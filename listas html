@@ -3,7 +3,7 @@
     <head>
         <title>Lista Ordenada</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible"content"IE-edge">
+        <meta http-equiv="X-UA-compatible"content= "IE-edge">
         <meta name="viwepor"content"width=device-width, initial-scale-1.0">
         <title>Operando com Listas</title>
     </head>
@@ -24,7 +24,7 @@
             <li>carne</li>
         </ul>
         <dl>
-        <dt>SENAC</dt>
+        <dt><a href="http.//pi.senac.br">SENAC</a></dt>
         <dd>Serviço Nacional de Apredizagem Comercial</dd>
         <dt>SESC</dt>
         <dd>Serviço social do cormecio</dd>

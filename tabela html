@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible"content= "IE-edge">
+        <meta name="viweport"contenr= width device-width, initial scale-1.0">
+            <title>Trabalhando com tabelas
+            </title>
+    </head>
+    <body>
+        <h2>
+            Tabela de html</h2>
+            <table>
+                    <thead>
+                <tr>
+                    <th>Matricula</th>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>2023.09.001</td>
+                    <td>Caio</td>
+                    <td>Lima</td>
+                </tr>
+                <tr>
+                    <td>2023.09.002</td>
+                    <td>Danilo</td>
+                    <td>Carvalho</td>
+                </tr>
+                <tr>
+                    <td>2023.09.003</td>
+                    <td>Èrico</td>
+                    <td>Costa</td>
+                </tr>
+                <tbody>
+                <tfoot>
+                        <tr>
+                            <td>
+                                Fonte Professor Èrico costa
+                            </td>
+                        </tr>
+                </tfoot>
+                </body>
+            </table>
+    </body>
+    </html>
