@@ -1,6 +1,7 @@
 body{
     background-color: gray;
-    font-family:  arial, helvetica, sans-serif
+    font-family:  arial, helvetica, sans-serif;
+    font-size:  12px
 }
 table, tr, td, th{
     border-style: solid;
@@ -14,6 +15,8 @@ div.tabela{
     text-align: center;
     background-color: coral;
 }
-table{
-    margin: auto;
-}
+div#sobre{
+    background-color: rgb(50,96,26);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    }
