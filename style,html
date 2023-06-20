@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viweport"content="width-device-width, initial-scale-1.0">
+    <style>
+       {
+        margin: 0;
+        padding: 0;
+       }
+         {
+            text-decoration: none; 
+            cursor: grab;
+        }
+        body{
+            font-size: 1.7rem;
+        }
+        h1{
+            margin: 5px;
+            margin-left: 1px;
+            margin-bottom: 2px;
+            margin-right: 3px; 
+            text-align: center;
+        }
+        ul{
+            border-style:solid;
+            padding: 0;
+            text-align: center;
+        }   
+        li:first-child{
+                    background-color: orangered;
+        }
+        
+        a.hover, li-hover;{
+                color: offf;
+        }
+       
+        li{ 
+            display: inline;
+            padding: 0.10em;
+        }
+    </style>
+    <title>Diversos css</title>
+</head>
+<body style="font-size: 1em; background-color: cyan; width: 500px; margin: auto">
+    <h1>Utilizando CSSs Diferentes</h1>
+            <ul>
+            <li><a href="#">inline</a></li>
+            <li><a href="#">incorporado</a></li>
+            <li><a href="#">externo</a></li>
+            <li>SENAC</li>
+            <li>Parnaiba</li>
+            <li>São João</li>
+            </ul>
+</body>
+</html>
