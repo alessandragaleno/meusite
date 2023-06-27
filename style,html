@@ -45,9 +45,9 @@
 </head>
 <body class="color4" style="font-size: 1em; width: 500px; margin: auto">
     <h1>Utilizando CSSs Diferentes</h1>
-            <ul styl>
-            <li><a href="#">inline</a></li>
-            <li><a href="#">incorporado</a></li>
+            <ul styel="list-style: none;">
+            <li><a href="#olha">inline</a></li>
+            <li><a href="#aqui">incorporado</a></li>
             <li><a href="#">externo</a></li>
             <li><i class="fa-solid fa-bars"></i> SENAC</li>
             <li>Parnaiba</li>
