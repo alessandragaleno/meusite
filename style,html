@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viweport"content="width-device-width, initial-scale-1.0">
+    <title>Diversos CSSs</title>
+    <link rel="stylecheet">
     <style>
-       {
-        margin: 0;
-        padding: 0;
-       }
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500&family=Roboto+Mono:ital,wght@0,300;0,500;1,200&display=swap');
+</style>
+        
          {
             text-decoration: none; 
             cursor: grab;
@@ -32,7 +34,7 @@
         }
         
         a.hover, li-hover;{
-                color: offf;
+                color: #fff;
         }
        
         li{ 
@@ -40,17 +42,23 @@
             padding: 0.10em;
         }
     </style>
-    <title>Diversos css</title>
 </head>
-<body style="font-size: 1em; background-color: cyan; width: 500px; margin: auto">
+<body class="color4" style="font-size: 1em; width: 500px; margin: auto">
     <h1>Utilizando CSSs Diferentes</h1>
-            <ul>
+            <ul styl>
             <li><a href="#">inline</a></li>
             <li><a href="#">incorporado</a></li>
             <li><a href="#">externo</a></li>
-            <li>SENAC</li>
+            <li><i class="fa-solid fa-bars"></i> SENAC</li>
             <li>Parnaiba</li>
             <li>São João</li>
             </ul>
+            <div style="height: 400px " id="olha">
+            <p>olha</p>
+            </div  
+            <div id="sobre" style="height: 400px" id="aqui">
+             <p>aqui</p>
+            </div>
+            <p>!</p>
 </body>
 </html>
