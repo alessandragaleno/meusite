@@ -8,47 +8,62 @@
     <style>
 
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500&family=Roboto+Mono:ital,wght@0,300;0,500;1,200&display=swap');
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=EB+Garamond:ital,wght@0,400;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Rajdhani:wght@300;400;500&family=Roboto+Mono:ital,wght@0,300;0,500;1,200&display=swap');
 </style>
-        
+</style>
+     <style>   
          {
             text-decoration: none; 
             cursor: grab;
+        }
+        {
+            margin: 0;
+            padding: 0;
+        }
+        {
+        .color-1 {color: #20dad1;}
+        .color-2 {color: #20daaf;}
+        .color-3 {color: #121813;}
+        .color-4 {color: #7a7a76;}
+        .color-5 {color: #f3eae8;}
         }
         body{
             font-size: 1.7rem;
         }
         h1{
-            margin: 5px;
             margin-left: 1px;
+            margin-top: 5px;
             margin-bottom: 2px;
             margin-right: 3px; 
             text-align: center;
         }
         ul{
-            border-style:solid;
+            border-style: 1px;
             padding: 0;
             text-align: center;
         }   
         li:first-child{
-                    background-color: orangered;
+                    background-color: orange;
         }
         
-        a.hover, li-hover;{
+        a.hover, li:hover{
                 color: #fff;
         }
        
         li{ 
-            display: inline;
+            display: inline-block;
             padding: 0.10em;
+            width: 80px;
         }
     </style>
 </head>
-<body class="color4" style="font-size: 1em; width: 500px; margin: auto">
+<body class="color4" style="font-size: 0.75em; width: 500px; margin: auto">
     <h1>Utilizando CSSs Diferentes</h1>
-            <ul styel="list-style: none;">
+            <ul
             <li><a href="#olha">inline</a></li>
             <li><a href="#aqui">incorporado</a></li>
-            <li><a href="#">externo</a></li>
+            <li><i class="fa-solid fa external-link"></i><a href="#"><i>Externo</a></li>
             <li><i class="fa-solid fa-bars"></i> SENAC</li>
             <li>Parnaiba</li>
             <li>São João</li>
@@ -59,6 +74,5 @@
             <div id="sobre" style="height: 400px" id="aqui">
              <p>aqui</p>
             </div>
-            <p>!</p>
 </body>
 </html>
