@@ -1,0 +1,28 @@
+:root{
+    --cor-base: rgb(86. 3. 45);
+    --cor-princpal:var(--cor-base);
+    --cor-secundaria: hsl(279,60%,45%);
+}
+body{
+    background-color: var(--cor-principal);
+}/*color: ;*/
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.quadrado{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-radius:30%;
+    border: solid;
+
+}
+.cor1{
+    background-color: rgba(127, 243, 15, 0.5);
+}
+.cor2{
+    background-color: #cdcbac;
+}
+.cor3{
+    background-color: hsl( 180, 47%, 50%, 0,69%) ;
